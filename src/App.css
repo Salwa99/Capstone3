@@ -1,38 +1,234 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --gold: #ffb338;
+  --light-shadow: #77571d;
+  --dark-shadow: #3e2904;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(#c8d5da, #4988e6);
+  padding-right: 2%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.back a {
+  font-size: 1.6rem;
+  color: #e2e2e2;
+  margin-left: -30px;
+}
+
+.logo {
+  display: flex;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: 'overlap';
+  place-content: center;
+  text-transform: uppercase;
+}
+
+.wrapper > div {
+  -webkit-background-clip: text;
+  color: #363833;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  grid-area: overlap;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 4px transparent;
+}
+
+div.bg {
+  background-image:
+    repeating-linear-gradient(
+      105deg,
+      var(--gold) 0%,
+      var(--dark-shadow) 5%,
+      var(--gold) 12%
+    );
+  color: transparent;
+  filter: drop-shadow(5px 15px 15px black);
+  transform: scaleY(1.05);
+  transform-origin: top;
+}
+
+div.fg {
+  background-image:
+    repeating-linear-gradient(
+      5deg,
+      var(--gold) 0%,
+      var(--light-shadow) 23%,
+      var(--gold) 31%
+    );
+  color: #1e2127;
+  transform: scale(1);
+}
+
+.logo img {
+  width: 60px;
+}
+
+.setting {
+  display: flex;
+  gap: 10px;
+  font-size: 1.4rem;
+  color: rgb(248, 244, 240);
+  cursor: pointer;
+}
+
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url("assets/hogwarts-castle-.jpg") no-repeat;
+}
+
+.searchField {
+  margin: 3%;
+  width: 30%;
+}
+
+.searchField input {
+  font-size: 1.3rem;
+  padding: 3%;
+  width: 100%;
+  border-radius: 25px;
+  font-style: italic;
+  color: #63320a;
+  border: 2px solid #30a3d1;
+}
+
+.cards {
+  width: 100%;
+}
+
+.cards ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  background: #0a8ce2;
+  background: linear-gradient(to right, #10b1da, #114bb6);
+  padding: 3%;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards ul li a {
+  margin-bottom: 6%;
+}
+
+.infoContainer img {
+  width: 200px;
+  border: 2px solid #fff;
+  border-radius: 60%;
+}
+
+.cards ul li img {
+  border: 2px solid #e2e2e2;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  transition: 300ms transform ease-in-out;
+  filter: sepia(100%) hue-rotate(190deg) saturate(900%);
+}
+
+.cards ul li img:hover {
+  transform: scale(1.03);
+  box-shadow:
+    0 1px 2px 0 rgba(35, 219, 210, 0.7),
+    1px 2px 4px 0 rgba(35, 219, 210, 0.7),
+    2px 4px 8px 0 rgba(35, 219, 210, 0.7),
+    2px 4px 16px 0 rgba(35, 219, 210, 0.7);
+    filter: none;
+}
+
+.mainInfo {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 2%;
+  background: url("assets/hogwarts.png") no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.cards ul li p,
+.infoContainer .charInfo {
+  width: 250px;
+  color: rgb(235, 179, 27);
+  font-size: 1.6rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .back a,
+  .setting {
+    font-size: 1rem;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  .wrapper > div {
+    font-size: 0.9rem;
+  }
+
+  .searchField {
+    width: 80%;
+  }
+
+  .searchField input {
+    font-size: 1rem;
+  }
+
+  .cards ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    padding: 3%;
+  }
+
+  .infoContainer img {
+    width: 150px;
   }
 }
