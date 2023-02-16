@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# House Of Wizards 🧙
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description
+**A mobile web application that allows the user to create a list of metrics by utilizing React and Redux. I have chosen the Harry Potter API.**
+**The webapp consists of two pages: the first page will display a list of items that can be filtered using the name, serving as the homepage. The second page will be for displaying the details of a particular item.** 
+# 🛠 Built With
+### Tech Stack:
+- React
 
-In the project directory, you can run:
+### Client:
+- React
 
-### `npm start`
+# 🚀 Live Demo <a name="live-demo"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[House Of Wizards 🧙](https://hogwarts-school.onrender.com)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Loom video](https://www.loom.com/share/3fb44fb3532441d0b6dd8f600e5dafc2)
 
-### `npm test`
+<img src="pic.png" alt="screen shot">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Server:
+- local.
+### Database:
+- N/A.
 
-### `npm run build`
+# Key Features:
+- React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 💻 Getting Started:
+### To get a local copy up and running, follow these steps:
+- Installed Git.
+- Create a local directory that you want to clone the repository.
+- Open the command prompt in the created directory.
+- On the terminal run this command git clone https://github.com/Salwa99/house-of-wizards.git
+- Install the dev dependencies for linters run npm install.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Prerequisites:
+### In order to run this project you need:
+- Installed Git.
+- A browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Setup:
+- Clone this repository to your desired folder.
 
-### `npm run eject`
+# Install:
+### Install this project with:
+- Git.
+- Github.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Usage:
+### To run the project, execute the following command:
+  ```sh 
+  git clone https://github.com/Salwa99/house-of-wizards.git
+  ```
+  ```sh 
+  cd Spacehub
+  ```
+  ```sh 
+  npm install
+  ```
+  ```sh 
+  npm start
+  ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Run tests:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  ```sh 
+  npm install react-test-renderer --save-dev
+  ```
+  ```sh 
+  npm install --save-dev @testing-library/react
+  ```
+  ```sh 
+  npm run test
+  ```
+### To run tests, run the following command:
+  ```sh 
+  npx eslint .
+  ```
+   ```sh 
+  npx stylelint "**/*.{css,scss}
+  ```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Deployment:
+### You can deploy this project using:
+- Render
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 👥 Authors:
+### 👤 Salwa Ballouti:
+- GitHub: [@Salwa99](https://github.com/Salwa99)
+- Twitter: [@SalwaBallouti](https://twitter.com/salwa_ballouti)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/salwa-ballouti)
+  
+# 🔭 Future Features:
+- Implement some awesome animations and transitions to the design.
+- Integrate back-end.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 🤝 Contributing:
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
 
-### Analyzing the Bundle Size
+# ⭐️ Show your support
+If you like this project kindly send to me an e-mail expressing it, it would make my day and fuel my motivation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 🙏 Acknowledgments:
+I would like to thank Microverse team for this journey. Also I would like to thanks Nelson Sakva for Original Design Official [Behance](https://www.behance.net/) Page point_right [@NelsonSakva](https://www.behance.net/sakwadesignstudio), and the Harry Potter Api Provider [API](https://hp-api.onrender.com/)
+# ❓ FAQ:
+### How do I clone this with all the un-merged branches?
+- Kindly check the branches names in github then add them manually on your local machine, after that you may just pull the changes.
+### How to access the database?
+- It's not available for now I'm still working on it, once it's available I'll update this answer.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 📝 License:
+This project is [MIT](./LICENSE) licensed.
