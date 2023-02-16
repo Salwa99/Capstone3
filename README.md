@@ -20,7 +20,7 @@
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[House Of Wizards 🧙](https://house-of-wizards.onrender.com/)
+[House Of Wizards 🧙](https://hogwarts-school.onrender.com)
 
 [Loon video](https://www.loom.com/share/f8b7b9a8ff32439e86cfeb4230aca669)
 
