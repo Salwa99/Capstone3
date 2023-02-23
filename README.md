@@ -54,7 +54,7 @@
   git clone https://github.com/Salwa99/house-of-wizards.git
   ```
   ```sh 
-  cd Spacehub
+  cd house-of-wizards
   ```
   ```sh 
   npm install
