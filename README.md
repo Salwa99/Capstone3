@@ -15,8 +15,6 @@
 
 [House Of Wizards 🧙](https://hogwarts-school.onrender.com)
 
-[Loom video](https://www.loom.com/share/3fb44fb3532441d0b6dd8f600e5dafc2)
-
 <img src="pic.png" alt="screen shot">
 
 ### Server:
