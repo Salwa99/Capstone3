@@ -177,7 +177,7 @@ div.fg {
   align-items: center;
   gap: 50px;
   padding: 2%;
-  box-shadow: rgba(172, 118, 3, 0.24) 0px 3px 8px;
+  box-shadow: rgba(172, 118, 3, 0.24) 0 3px 8px;
 }
 
 .cards ul li p,
