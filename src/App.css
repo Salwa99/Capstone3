@@ -234,12 +234,12 @@ div.fg {
 }
 
 @media only screen and (max-width: 1024px) {
+  .cards ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
- .cards ul{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
   .infoContainer img {
     width: 200px;
   }
