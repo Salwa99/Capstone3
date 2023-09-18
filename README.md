@@ -13,7 +13,7 @@
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[House Of Wizards 🧙](https://hogwarts-school.onrender.com)
+[House Of Wizards 🧙](https://hogwarts-school-d926qztu3-salwa99.vercel.app/)
 
 <img src="pic.png" alt="screen shot">
 
